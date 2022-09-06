@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XnM-yJ-D9l">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Multiplayer-->
+        <scene sceneID="Egt-Yj-5Sk">
+            <objects>
+                <viewController id="XnM-yJ-D9l" customClass="MultiplayerViewController" customModule="ComposeVCWithStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gab-Mi-Ipv">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fOD-5g-ZDP">
+                                <rect key="frame" x="10" y="64" width="394" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="bgf-EB-OUX"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Dab-nG-Rc4" kind="embed" id="7AD-34-sr9"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="bHt-Bs-RjI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="bHt-Bs-RjI" firstAttribute="trailing" secondItem="fOD-5g-ZDP" secondAttribute="trailing" constant="10" id="BPj-H6-fE8"/>
+                            <constraint firstItem="fOD-5g-ZDP" firstAttribute="top" secondItem="bHt-Bs-RjI" secondAttribute="top" constant="20" id="pzr-TG-Eui"/>
+                            <constraint firstItem="fOD-5g-ZDP" firstAttribute="leading" secondItem="bHt-Bs-RjI" secondAttribute="leading" constant="10" id="tvO-it-94w"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Multiplayer" id="Td0-fe-BZb"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="epR-ty-UWO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="34.782608695652179" y="83.705357142857139"/>
+        </scene>
+        <!--MultiplayerScore-->
+        <scene sceneID="6lj-SF-OVx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MultiplayerScore" id="Dab-nG-Rc4" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UCs-VC-QCz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="146" y="-313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
