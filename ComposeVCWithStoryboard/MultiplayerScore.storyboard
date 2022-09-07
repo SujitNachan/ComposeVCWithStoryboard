@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Multiplayer View Controller-->
+        <!--Multiplayer Score View Controller-->
         <scene sceneID="rG2-64-sr2">
             <objects>
-                <viewController id="XgZ-g3-i8v" customClass="MultiplayerViewController" customModule="ComposeVCWithStoryboard" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XgZ-g3-i8v" customClass="MultiplayerScoreViewController" customModule="ComposeVCWithStoryboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="78b-0u-gx5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="85"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,13 +22,13 @@
                                     <constraint firstAttribute="height" constant="85" id="mmv-dt-eDh"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="tpc-6g-iop" kind="embed" id="VMe-Pl-uhX"/>
+                                    <segue destination="tpc-6g-iop" kind="embed" identifier="PlayerOne" id="VMe-Pl-uhX"/>
                                 </connections>
                             </containerView>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="px9-aH-39W">
                                 <rect key="frame" x="219.5" y="0.0" width="194.5" height="85"/>
                                 <connections>
-                                    <segue destination="35U-3y-oVZ" kind="embed" id="vkY-Ex-GNI"/>
+                                    <segue destination="35U-3y-oVZ" kind="embed" identifier="PlayerTwo" id="vkY-Ex-GNI"/>
                                 </connections>
                             </containerView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="vs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Og-jf-aXz">

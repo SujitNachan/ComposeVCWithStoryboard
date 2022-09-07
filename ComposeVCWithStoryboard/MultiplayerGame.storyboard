@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="85" id="bgf-EB-OUX"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="Dab-nG-Rc4" kind="embed" id="7AD-34-sr9"/>
+                                    <segue destination="Dab-nG-Rc4" kind="embed" identifier="Players" id="7AD-34-sr9"/>
                                 </connections>
                             </containerView>
                         </subviews>

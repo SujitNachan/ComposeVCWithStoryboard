@@ -19,7 +19,7 @@
         <!--Single Player-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController id="Y6W-OH-hqX" customClass="SinglePlayerViewController" customModule="ComposeVCWithStoryboard" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -30,7 +30,7 @@
                                     <constraint firstAttribute="height" constant="85" id="f1A-Pd-jNz"/>
                                 </constraints>
                                 <connections>
-                                    <segue destination="pGO-hp-B4D" kind="embed" id="1Mq-dG-u11"/>
+                                    <segue destination="pGO-hp-B4D" kind="embed" identifier="Player" id="1Mq-dG-u11"/>
                                 </connections>
                             </containerView>
                         </subviews>
