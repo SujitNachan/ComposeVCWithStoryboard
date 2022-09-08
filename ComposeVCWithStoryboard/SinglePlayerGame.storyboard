@@ -13,6 +13,11 @@
             <objects>
                 <viewControllerPlaceholder storyboardName="PlayerOne" id="pGO-hp-B4D" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ihC-Rr-pzU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <customObject id="YiS-9z-awc" customClass="SinglePlayerViewControllerStoryboardConfigurator" customModule="ComposeVCWithStoryboard" customModuleProvider="target">
+                    <connections>
+                        <outlet property="player" destination="pGO-hp-B4D" id="evB-OU-GY7"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="-88" y="-306"/>
         </scene>

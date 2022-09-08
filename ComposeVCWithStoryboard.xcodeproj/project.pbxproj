@@ -12,7 +12,6 @@
 		810B769D28BF860200194F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810B769B28BF860200194F0E /* Main.storyboard */; };
 		810B769F28BF860700194F0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810B769E28BF860700194F0E /* Assets.xcassets */; };
 		810B76A228BF860700194F0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810B76A028BF860700194F0E /* LaunchScreen.storyboard */; };
-		810B76AD28BF860700194F0E /* ComposeVCWithStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B76AC28BF860700194F0E /* ComposeVCWithStoryboardTests.swift */; };
 		810B76B728BF860700194F0E /* ComposeVCWithStoryboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B76B628BF860700194F0E /* ComposeVCWithStoryboardUITests.swift */; };
 		810B76B928BF860700194F0E /* ComposeVCWithStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B76B828BF860700194F0E /* ComposeVCWithStoryboardUITestsLaunchTests.swift */; };
 		810B76C628BF86CA00194F0E /* SinglePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B76C528BF86CA00194F0E /* SinglePlayerViewController.swift */; };
@@ -28,6 +27,8 @@
 		810B76DA28BF88F600194F0E /* TimedMultiplayerGame.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810B76D928BF88F600194F0E /* TimedMultiplayerGame.storyboard */; };
 		810B76DC28BF891D00194F0E /* TimedBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810B76DB28BF891D00194F0E /* TimedBar.storyboard */; };
 		810B76DE28BF96F300194F0E /* TimeBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810B76DD28BF96F300194F0E /* TimeBarViewController.swift */; };
+		811A6AF128C8B8F2003F0641 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 811A6AF028C8B8F2003F0641 /* PlayerScoreViewControllerStoryboardTests.swift */; };
+		81AAA2A728C9C2EF00458B14 /* SinglePlayerViewControllerStoryboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AAA2A628C9C2EF00458B14 /* SinglePlayerViewControllerStoryboardConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +57,6 @@
 		810B76A128BF860700194F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		810B76A328BF860700194F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		810B76A828BF860700194F0E /* ComposeVCWithStoryboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposeVCWithStoryboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		810B76AC28BF860700194F0E /* ComposeVCWithStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeVCWithStoryboardTests.swift; sourceTree = "<group>"; };
 		810B76B228BF860700194F0E /* ComposeVCWithStoryboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComposeVCWithStoryboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810B76B628BF860700194F0E /* ComposeVCWithStoryboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeVCWithStoryboardUITests.swift; sourceTree = "<group>"; };
 		810B76B828BF860700194F0E /* ComposeVCWithStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeVCWithStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -73,6 +73,8 @@
 		810B76D928BF88F600194F0E /* TimedMultiplayerGame.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimedMultiplayerGame.storyboard; sourceTree = "<group>"; };
 		810B76DB28BF891D00194F0E /* TimedBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TimedBar.storyboard; sourceTree = "<group>"; };
 		810B76DD28BF96F300194F0E /* TimeBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBarViewController.swift; sourceTree = "<group>"; };
+		811A6AF028C8B8F2003F0641 /* PlayerScoreViewControllerStoryboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerScoreViewControllerStoryboardTests.swift; sourceTree = "<group>"; };
+		81AAA2A628C9C2EF00458B14 /* SinglePlayerViewControllerStoryboardConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerViewControllerStoryboardConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				810B76D928BF88F600194F0E /* TimedMultiplayerGame.storyboard */,
 				810B76DD28BF96F300194F0E /* TimeBarViewController.swift */,
 				810B76DB28BF891D00194F0E /* TimedBar.storyboard */,
+				81AAA2A628C9C2EF00458B14 /* SinglePlayerViewControllerStoryboardConfigurator.swift */,
 			);
 			path = ComposeVCWithStoryboard;
 			sourceTree = "<group>";
@@ -149,7 +152,7 @@
 		810B76AB28BF860700194F0E /* ComposeVCWithStoryboardTests */ = {
 			isa = PBXGroup;
 			children = (
-				810B76AC28BF860700194F0E /* ComposeVCWithStoryboardTests.swift */,
+				811A6AF028C8B8F2003F0641 /* PlayerScoreViewControllerStoryboardTests.swift */,
 			);
 			path = ComposeVCWithStoryboardTests;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				810B76C628BF86CA00194F0E /* SinglePlayerViewController.swift in Sources */,
 				810B76DE28BF96F300194F0E /* TimeBarViewController.swift in Sources */,
 				810B76CE28BF882900194F0E /* TimedMultiplayerViewController.swift in Sources */,
+				81AAA2A728C9C2EF00458B14 /* SinglePlayerViewControllerStoryboardConfigurator.swift in Sources */,
 				810B76C828BF872B00194F0E /* MultiplayerViewController.swift in Sources */,
 				810B769628BF860200194F0E /* AppDelegate.swift in Sources */,
 				810B76CA28BF879100194F0E /* PlayerScoreViewController.swift in Sources */,
@@ -316,7 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				810B76AD28BF860700194F0E /* ComposeVCWithStoryboardTests.swift in Sources */,
+				811A6AF128C8B8F2003F0641 /* PlayerScoreViewControllerStoryboardTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
